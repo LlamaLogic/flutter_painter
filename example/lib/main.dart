@@ -128,7 +128,7 @@ class _FlutterPainterExampleState extends State<FlutterPainterExample> {
           // Listen to the controller and update the UI when it updates.
           child: ValueListenableBuilder<PainterControllerValue>(
               valueListenable: controller,
-              child: const Text("Flutter Painter Example"),
+              child: const Text("SiteMap Annotation"),
               builder: (context, _, child) {
                 return AppBar(
                   title: child,
@@ -218,7 +218,7 @@ class _FlutterPainterExampleState extends State<FlutterPainterExample> {
                             if (controller.freeStyleMode !=
                                 FreeStyleMode.none) ...[
                               const Divider(),
-                              const Text("Free Style Settings"),
+                              const Text("Drawing Tool Settings"),
                               // Control free style stroke width
                               Row(
                                 children: [
