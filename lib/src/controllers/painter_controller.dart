@@ -434,7 +434,7 @@ class PainterControllerValue {
 
   @override
   int get hashCode => Object.hash(
-      Object.hasAll(_drawables), background, settings, selectedObjectDrawable);
+      Object.hashAll(_drawables), background, settings, selectedObjectDrawable);
 }
 
 /// Private class that is used internally to represent no
